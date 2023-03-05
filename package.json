@@ -1,0 +1,36 @@
+{
+  "name": "srees-room",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.56.23",
+    "@react-three/fiber": "^8.11.0",
+    "@types/three": "^0.149.0",
+    "framer-motion": "^10.0.1",
+    "framer-motion-3d": "^10.0.1",
+    "gsap": "^3.11.4",
+    "immer": "^9.0.19",
+    "luxon": "^3.2.1",
+    "maath": "^0.5.2",
+    "r3f-perf": "^7.1.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.3.6",
+    "three": "^0.149.0",
+    "two.js": "^0.8.10",
+    "zustand": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "vite": "^4.1.0",
+    "vite-plugin-glsl": "^1.1.2"
+  }
+}
