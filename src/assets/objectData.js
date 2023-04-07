@@ -39,7 +39,8 @@ export const infos = {
 
     'Laptop_Screen': {
         title: 'XDrive',
-        description: 'A completely decentralized file storage platform built on top of arweave and bundlr.network (work in progress)'
+        description: 'DApp for storing and managing files on Arweave using Bundlr.network and Warp smart contracts (Work in progress)',
+        youtube: 'https://www.youtube.com/watch?v=jzG8x5l3xf0&ab_channel=NagendranN'
     },
 
     'me': {
