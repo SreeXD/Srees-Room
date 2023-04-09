@@ -21,7 +21,7 @@ import roomFragmentShader from '../../shaders/room/room.frag'
 import plantVertexShader from '../../shaders/plant/plant.vert'
 import libxdVideoMp4 from '../../assets/videos/project_libxd.mp4'
 import xwingVideoMp4 from '../../assets/videos/project_xwing.mp4'
-import xdriveVideoMp4 from '../../assets/videos/project_xdrive.mp4'
+import aeonsVideoMp4 from '../../assets/videos/project_aeons.mp4'
 import text3VertexShader from '../../shaders/text3/text3.vert'
 import text3FragmentShader from '../../shaders/text3/text3.frag'
 import { names } from '../../assets/objectData'
@@ -64,7 +64,7 @@ function Scene() {
         laptopScreen,
         libxdVideoMaterial,
         xwingVideoMaterial,
-        xdriveVideoMaterial,
+        aeonsVideoMaterial,
         resume,
         textMaterial
     ] = useMemo(() => {
@@ -115,13 +115,13 @@ function Scene() {
         
         const libxdVideoMaterial = createVideoMaterial(libxdVideoMp4)
         const xwingVideoMaterial = createVideoMaterial(xwingVideoMp4)
-        const xdriveVideoMaterial = createVideoMaterial(xdriveVideoMp4)
+        const aeonsVideoMaterial = createVideoMaterial(aeonsVideoMp4)
 
         for (const texture of [meTexture, lucyTexture, roomMorningTexture, roomNightTexture]) {
             fixTexture(texture)
         }
 
-        for (const material of [meMaterial, lucyMaterial, roomMaterial, plantMaterial, libxdVideoMaterial, xwingVideoMaterial, xdriveVideoMaterial]) {
+        for (const material of [meMaterial, lucyMaterial, roomMaterial, plantMaterial, libxdVideoMaterial, xwingVideoMaterial, aeonsVideoMaterial]) {
             Object.assign(material, maskStencil)
         }
 
@@ -146,7 +146,7 @@ function Scene() {
             children['Laptop_Screen'],
             libxdVideoMaterial,
             xwingVideoMaterial,
-            xdriveVideoMaterial,
+            aeonsVideoMaterial,
             children['Resume'],
             textMaterial
         ]
@@ -192,7 +192,7 @@ function Scene() {
 
                 case 'Laptop_Screen':
                     clearUv(child, true, 0, 0)
-                    child.material = xdriveVideoMaterial
+                    child.material = aeonsVideoMaterial
                     break
                     
                 default:

@@ -10,7 +10,7 @@ export const names = {
     'Linkedin': 'linkedin',
     'Monitor_Screen': 'libxd',
     'Drawing_Pad_Screen': 'xwing',
-    'Laptop_Screen': 'xdrive',
+    'Laptop_Screen': 'aeons',
     'Resume': 'resume'
 }
 
@@ -38,7 +38,7 @@ export const infos = {
     },
 
     'Laptop_Screen': {
-        title: 'XDrive',
+        title: 'Aeons',
         description: 'DApp for storing and managing files on Arweave using Bundlr.network and Warp smart contracts (Work in progress)',
         youtube: 'https://www.youtube.com/watch?v=jzG8x5l3xf0&ab_channel=NagendranN'
     },
