@@ -47,7 +47,7 @@ export const infos = {
 
     'me': {
         title: 'Nagendran N',
-        description: 'Hey! I am Nagendran a.k.a Sree (my house name), I am a currently a computer science student interested in web, crypto and 3D',
+        description: 'Hey! I am Nagendran a.k.a Sree, I am a currently a computer science student interested in web, crypto and 3D',
         github: VITE_GITHUB_LINK,
         twitter: VITE_TWITTER_LINK,
         youtube: VITE_YOUTUBE_LINK,
