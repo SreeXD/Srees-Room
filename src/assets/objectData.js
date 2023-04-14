@@ -40,7 +40,9 @@ export const infos = {
     'Laptop_Screen': {
         title: 'Aeons',
         description: 'DApp for storing and managing files on Arweave using Bundlr.network and Warp smart contracts (Work in progress)',
-        youtube: 'https://www.youtube.com/watch?v=jzG8x5l3xf0&ab_channel=NagendranN'
+        youtube: 'https://youtu.be/sz3LTJnXeNw',
+        github: 'https://github.com/Aeons-Team/Aeons',
+        hosted: 'https://aeons.vercel.app/'
     },
 
     'me': {
