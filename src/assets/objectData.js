@@ -10,7 +10,7 @@ export const names = {
     'Linkedin': 'linkedin',
     'Monitor_Screen': 'libxd',
     'Drawing_Pad_Screen': 'xwing',
-    'Laptop_Screen': 'xdrive',
+    'Laptop_Screen': 'aeons',
     'Resume': 'resume'
 }
 
@@ -38,13 +38,16 @@ export const infos = {
     },
 
     'Laptop_Screen': {
-        title: 'XDrive',
-        description: 'A completely decentralized file storage platform built on top of arweave and bundlr.network (work in progress)'
+        title: 'Aeons',
+        description: 'DApp for storing and managing files on Arweave using Bundlr.network and Warp smart contracts (Work in progress)',
+        youtube: 'https://youtu.be/sz3LTJnXeNw',
+        github: 'https://github.com/Aeons-Team/Aeons',
+        hosted: 'https://aeons.vercel.app/'
     },
 
     'me': {
         title: 'Nagendran N',
-        description: 'Hey! I am Nagendran a.k.a Sree (my house name), I am a currently a computer science student interested in web, crypto and 3D',
+        description: 'Hey! I am Nagendran a.k.a Sree, I am a currently a computer science student interested in web, crypto and 3D',
         github: VITE_GITHUB_LINK,
         twitter: VITE_TWITTER_LINK,
         youtube: VITE_YOUTUBE_LINK,
